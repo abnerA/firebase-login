@@ -1,7 +1,5 @@
 import React from "react";
 import style from './Login.module.css';
-// import { Home } from "./Home";
-
 export function Login() {
 
   const handleClick = () => {
@@ -19,7 +17,6 @@ export function Login() {
                 <input type="password" name="password" id="password" placeholder="Contraseña" />
             </label>
             <button type="button" className={style.btn} onClick={handleClick}>Iniciar sesión</button>
-            {/* <Home /> */}
         </div>
     )
 }
